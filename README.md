@@ -17,15 +17,51 @@ To achieve this goal, the following tasks were set: <br />
 
 The subject of research is satellite images of forest areas obtained from the cartographic service Yandex Maps by taking a screenshots. All images contain the target object representes as sections of cleared forest.
 
-
-
-   
 ### Location: 59.086135, 111.975826
 
 ![image](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/5fba8d94-17d1-441e-9b45-d001f80f171b)
 
+The created data set consists of 17 pictures 1200 х 800.
+
+![image](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/013d0762-ea37-4342-82d2-190cc30b5b46)
+>[!NOTE]
+>Considering the following square computing, it is important to keep particular map scale during screenshoting.
+>In this case it's 200 meters.
+
+>![image](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/18d0cb7e-eadd-4e7f-9d2e-62192d3ca39d)
+>
+### Train data preparation
+To start with, we need to make visual analisys of the data set and select one or two images where the features of target object are easily recognazible. 
+
+### Data Clustering
+Then the chosen images are being labled, all pixels of background are marked as zeros and the target object's - as ones. In this case it is binary clusterisation.
+Clustriastion can be performed with different cluster number, it is important to pay attention on how ot could affect the result.
+The Elbow method based on intrarclaster disperion can be used to find the right cluster quantity.
+Here's an example of the Elbow method method plot and comparing different cluster quantity for our train pictures.
+
+<img src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/495098a8-e208-410f-bdc2-bd6e6d9a089a" width="350" height="300">
+
+
+
+<img src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/5e6cc88b-d0d4-4435-a3fa-a1cab64e7209" width="450" height="300">
+
+
+
+
+
+
+
+
+   
+
+
 
 ![out](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/9545e880-2875-4dfd-a9d2-8133e7603b5e)
+
+
+
+
+
 
 
 ## Result:
