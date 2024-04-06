@@ -33,7 +33,7 @@ The created data set consists of 17 pictures 1200 х 800.
 ### Train data preparation
 To start with, we need to make visual analisys of the data set and select one or two images where the features of target object are easily recognazible. 
 
-### Data Clustering
+### Data Clustering and labeling
 Then the chosen images are being labled, all pixels of background are marked as zeros and the target object's - as ones. In this case it is binary clusterisation.
 Clustriastion can be performed with different cluster number, it is important to pay attention on how ot could affect the result.
 The Elbow method based on intrarclaster disperion can be used to find the right cluster quantity.
