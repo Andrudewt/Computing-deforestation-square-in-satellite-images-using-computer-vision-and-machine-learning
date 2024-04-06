@@ -46,7 +46,7 @@ Here's an example of the Elbow method method plot and comparing different cluste
 <img src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/5e6cc88b-d0d4-4435-a3fa-a1cab64e7209" width="450" height="300">
 
 
-
+### Median filter
 
 
 
