@@ -6,13 +6,13 @@
 
 <p align="left">
 To achieve this goal, the following tasks were set: <br />
-   • Search for areas with deforested plots <br />
-   • Save images of the plots with the appropriate scale <br />
+   • Search for deforestated areas <br />
+   • Save the images keeping particular map scale <br />
    • Select a training image <br />
-   • Perform clustering of objects in it to create an array of annotations <br />
-   • Pass the image and annotation array data for training the classification model <br />
-   • Evaluate the quality and time of the classifier's operation <br />
-   • Process the entire dataset and obtain data on the area <br />
+   • Perform clustering of objects to create an array of labels <br />
+   • Train a classification model with the training image and label array <br />
+   • Evaluate the quality and time of the classifier <br />
+   • Process the entire datas set to compute deforestated areas square <br />
 </p>
 
 The subject of research is satellite images of forest areas obtained from the cartographic service Yandex Maps by taking a screenshots. All images contain the target object representes as sections of cleared forest.
@@ -63,14 +63,25 @@ In the next step the labeling was improved by morphological transformations. In 
 ### Learning Classificators
 One of the important targets here is to minimaze time and computation resource consumption. Considering this, the following classificators were selected to perform the task of detecting and labeling the target object:
 <p align="left">
-   • Search for areas with deforested plots <br />
-   • Save images of the plots with the appropriate scale <br />
-   • Select a training image <br />
-   • Perform clustering of objects in it to create an array of annotations <br />
+   • Gaussian Naive Bayes <br />
+   • K Nearest Neighbors <br />
+   • Multi-layer Perceptron <br />
 </p>
+The following evaluation metric scores were retreived:
+<p align="left">
+<img width="500" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/357ff319-a100-41bb-be61-8bda1cc73d08">
 
-
-
+Due to quite similar results, time consumption may be taken into considiration when shoosing a classifier to compute the rest of the data set.
+for learning:  
+</p>
+<p align="left">
+<img width="400" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/341d0f1a-3ffe-46cb-a05f-331693fb948a">
+</p>
+for data set computing:
+</p>
+<p align="left">
+<img width="400" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/02a955b8-6f59-4633-a217-8efbcdc6d5cc">
+</p>
 
 ## Result:
 ![out](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/0284d142-31b0-445f-948c-3df03e76288c)
