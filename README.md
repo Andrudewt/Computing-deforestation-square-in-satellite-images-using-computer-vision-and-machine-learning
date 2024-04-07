@@ -47,19 +47,27 @@ Here's an example of the Elbow method method plot and comparing different cluste
 
 
 ### Median filter
+The clusterisation results may contain some imperfections. In our case this was solved by implementing cv2 median filter.
+<img width="241" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/3894833a-5a08-4c9e-8c8e-bf7062c59e31">
+<img width="241" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/d44d2f5a-ba37-4408-b4bf-3a0e8b01e9aa">
 
+Alternatively binary custerisation can be performed by threshold processing at HSV color space using cv2.inRange.
+<img width="202" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/5cd2843c-a209-4317-8c34-a5e9aa0f16a8">
+<img width="387" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/09816599-0ab3-42e0-9fde-07fa1f98c984">
 
-
-
-
-   
-
-
+### Morphological transformations
+In the next step the labeling was improved by morphological transformations. In particular by combination of dilation and erosion operations. This order is commonly interpreted as Closing operation. 
 
 ![out](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/9545e880-2875-4dfd-a9d2-8133e7603b5e)
 
-
-
+### Learning Classificators
+One of the important targets here is to minimaze time and computation resource consumption. Considering this, the following classificators were selected to perform the task of detecting and labeling the target object:
+<p align="left">
+   • Search for areas with deforested plots <br />
+   • Save images of the plots with the appropriate scale <br />
+   • Select a training image <br />
+   • Perform clustering of objects in it to create an array of annotations <br />
+</p>
 
 
 
