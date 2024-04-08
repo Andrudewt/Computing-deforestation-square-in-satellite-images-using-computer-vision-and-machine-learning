@@ -83,5 +83,9 @@ for data set computing:
 <img width="400" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/02a955b8-6f59-4633-a217-8efbcdc6d5cc">
 </p>
 
+### Computing data set
+Finally the whole data set was passed to the classifier. According to visual analisys of the results, MLP was chosen for final step.
+
+
 ## Result:
 ![out](https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/0284d142-31b0-445f-948c-3df03e76288c)
