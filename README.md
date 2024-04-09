@@ -106,7 +106,9 @@ In order to compare the algorithm with other means of square calculation, the sa
 
 <img width="326" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/1971b6ac-6f4e-42c0-a201-a29bfab573f4">
 <img width="260" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/28e0e5d7-61aa-41ba-8838-dfb826a33ca7">
+<p align="center">
 <img width="281" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/294b27a6-9f42-4b91-be52-6116ea034468">
+</p>
 
 This comparison confirms that the algorithm is quite accurate.
 
