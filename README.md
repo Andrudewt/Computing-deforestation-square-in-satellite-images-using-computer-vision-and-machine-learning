@@ -55,8 +55,10 @@ The clustering results may contain some imperfections. In our case this was solv
 <img width="241" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/d44d2f5a-ba37-4408-b4bf-3a0e8b01e9aa">
 
 Alternatively binary clustering can be performed by threshold processing at HSV color space using cv2.inRange.
+<p align="justify">
 <img width="202" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/5cd2843c-a209-4317-8c34-a5e9aa0f16a8">
 <img width="387" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/09816599-0ab3-42e0-9fde-07fa1f98c984">
+</p> 
 
 ### Morphological transformations
 <p align="justify">
