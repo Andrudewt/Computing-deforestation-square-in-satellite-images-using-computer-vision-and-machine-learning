@@ -51,6 +51,7 @@ Then the chosen images are being labeled, all pixels of background are marked as
 
 ### Median filter
 The clustering results may contain some imperfections. In our case this was solved by implementing cv2 median filter.
+
 <img width="241" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/3894833a-5a08-4c9e-8c8e-bf7062c59e31">
 <img width="241" alt="изображение" src="https://github.com/Andrudewt/Computing-deforestation-square-in-satellite-images-using-computer-vision-and-machine-learning/assets/137271592/d44d2f5a-ba37-4408-b4bf-3a0e8b01e9aa">
 
