@@ -95,7 +95,7 @@ for data set computing:
 </p>
 
 ### Computing data set
-Finally the whole data set was passed to the classifier. According to visual analysis of the results, MLP was chosen for final step.
+Finally, the whole data set was passed to the classifier. According to visual analysis of the results, MLP was chosen for final step.
 
 ### Result:
 <p align="justify">
